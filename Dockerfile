@@ -6,4 +6,4 @@ ARG VALS_VERSION=0.37.2
 RUN \
   mkdir -p /usr/local/bin && \
   curl -fsSL https://github.com/helmfile/vals/releases/download/v${VALS_VERSION}/vals_${VALS_VERSION}_linux_amd64.tar.gz | \
-  tar xvzf - vals -C /usr/local/bin
+  tar xvzf - -C /usr/local/bin vals
