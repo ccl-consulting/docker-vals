@@ -1,4 +1,4 @@
-FROM buildpack-deps:bookworm-curl@sha256:26f797741018701856083d5936027cf8433ec952fac9be25a45097c1ed5661d3
+FROM buildpack-deps:bookworm-curl@sha256:3ce25ed8fe89738778796426084550ee9bc6f3da1081f73a271cf804b4cf9144
 
 # renovate: datasource=github-releases depName=helmfile/vals extractVersion=^v(?<version>.*)$
 ARG VALS_VERSION=0.37.5
